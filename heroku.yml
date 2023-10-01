@@ -1,5 +1,4 @@
 build:
   docker:
-    web: Dockerfile
-run:
-  web: docker-compose up
+    web1: frontend/Dockerfile
+    web2: api/Dockerfile
